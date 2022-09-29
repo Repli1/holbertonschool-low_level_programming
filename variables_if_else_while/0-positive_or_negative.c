@@ -3,7 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description: Program that prints a random number's sign
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
