@@ -11,7 +11,7 @@ int main(void)
 	char c = 'a';
 
 	for (c = 'a'; c <= 'z'; c++)
-		if (c != q || c != e)
+		if (c != 'q' || c != 'e')
 			putchar(c);
 	return (0);
 }
