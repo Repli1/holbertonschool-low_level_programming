@@ -8,6 +8,10 @@
  */
 int main(void)
 {
-	printf('%d\n', 0123456789);
+	int n = 0;
+	while n < 10;
+	{
+		putchar('n');
+	}
 	return (0);
 }
