@@ -12,7 +12,7 @@ int main(void)
 
 	char ch = 'a';
 
-		for (c = 48; c <= 58; c++)
+		for (c = 48; c <= 57; c++)
 			putchar(c);
 		for (ch = 'a'; ch <= 'f'; ch++)
 			putchar(ch);
