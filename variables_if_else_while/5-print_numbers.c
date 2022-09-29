@@ -9,9 +9,11 @@
 int main(void)
 {
 	int n = 0;
-	while n < 10;
+
+	while (n < 10)
 	{
 		putchar('n');
+		n += 1;
 	}
 	return (0);
 }
