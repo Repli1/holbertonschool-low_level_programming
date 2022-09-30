@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - Entry point
+ * _isalpha - Entry point
  *
- * Description: Program that prints the following line
+ * @c: It's a variable!
  *
  * Return: Always 0 (Success)
  */
