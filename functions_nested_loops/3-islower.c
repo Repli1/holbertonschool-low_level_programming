@@ -4,7 +4,7 @@
  *
  * Description: Program that prints the following line
  *
- * Return: Always 0 (Success)
+ * Return: 1 or 0 (Success)
  */
 
 int _islower(int c)
