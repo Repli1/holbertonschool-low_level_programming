@@ -19,7 +19,7 @@ void jack_bauer(void)
 
 	char d = 47;
 
-	for(n = 0, n <= 1440, n++)
+	for(n = 0; n <= 1440; n++)
 	{
 		_putchar(a);
 		_putchar(b);
