@@ -27,7 +27,7 @@ void jack_bauer(void)
 		_putchar(c);
 		_putchar(d);
 		d++;
-		if d == 58
+		if (d == 58)
 			d = 47;
 	}
 }
