@@ -11,13 +11,13 @@ void jack_bauer(void)
 {
 	int n = 0;
 
-	char a = 47;
+	char a = 48;
 
-	char b = 47;
+	char b = 48;
 
-	char c = 47;
+	char c = 48;
 
-	char d = 47;
+	char d = 48;
 
 	for(n = 0; n <= 1440; n++)
 	{
@@ -28,6 +28,6 @@ void jack_bauer(void)
 		_putchar(d);
 		d++;
 		if (d == 58)
-			d = 47;
+			d = 48;
 	}
 }
