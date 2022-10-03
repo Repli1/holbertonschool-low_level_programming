@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Entry point
+ * jack_bauer - Entry point
  *
  * Description: Program that prints the following line
  *
@@ -9,6 +9,8 @@
 
 void jack_bauer(void)
 {
+	int n = 0;
+
 	char a = 47;
 
 	char b = 47;
