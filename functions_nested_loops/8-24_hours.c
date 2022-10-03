@@ -29,6 +29,19 @@ void jack_bauer(void)
 		_putchar('\n');
 		d++;
 		if (d == 58)
+		{	
+			c++;
 			d = 48;
+		}
+		if (c == 54)
+		{	
+			b++;
+			c = 48;
+		}
+		if (b == 58)
+		{
+			a++;
+			b = 48;
+		}
 	}
 }
