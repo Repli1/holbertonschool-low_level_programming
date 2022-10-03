@@ -1,5 +1,5 @@
 /**
- * print_alphabet_x10 - Entry point
+ * print_last_digit - Entry point
  *
  * Description: Program that prints the following line
  *
@@ -8,5 +8,6 @@
 
 int print_last_digit(int n)
 {
+	write(1, n%10, 1);
 	return(n%10);
 }
