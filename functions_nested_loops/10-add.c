@@ -2,7 +2,9 @@
 /**
  * add - Entry point
  *
- * Description: Program that prints the following line
+ * @a: It's a number!
+ *
+ * @b: It's another number!
  *
  * Return: Always 0 (Success)
  */
