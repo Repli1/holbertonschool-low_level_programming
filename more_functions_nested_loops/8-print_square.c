@@ -12,6 +12,7 @@ void print_square(int size)
 	int temp = size;
 
 	int m = size;
+
 	if (size > 0)
 	{
 		for (size = 0; size < temp; size++)
