@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isupper - Entry point
+ * print_most_numbers - Entry point
  *
- * @c: It's a character!
+ * Description: A program that prints the following line.
  *
  * Return: Always 0 (Success)
  */
