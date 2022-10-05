@@ -6,5 +6,5 @@ OBJ = *.o
 
 NAME = school
 
-all: ${OBJ} ${SRC}
-	${CC} ${SRC} ${OBJ} -o ${NAME}
+all: ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
