@@ -11,10 +11,10 @@ RM = rm
 all: ${OBJ}
 	${CC} ${OBJ} -o ${NAME}
 
-clean: ${OBJ}
+clean:
 	${RM} *~ ${NAME}
 
-oclean: ${OBJ}
+oclean:
 	${RM} ${OBJ}
 
 fclean: clean oclean
