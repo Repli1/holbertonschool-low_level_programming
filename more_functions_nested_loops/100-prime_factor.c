@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(int n)
+int main(void)
 {
 	int n;
 
@@ -15,5 +15,4 @@ int main(int n)
 			p = n;
 	}
 	printf("%d", p);
-	return (0);
 }
