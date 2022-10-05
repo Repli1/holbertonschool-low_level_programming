@@ -15,4 +15,5 @@ int main(void)
 			p = n;
 	}
 	printf("%d", p);
+	return (0);
 }
