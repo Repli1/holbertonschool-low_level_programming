@@ -3,11 +3,11 @@
 
 int main(void)
 {
-	int n = 612852475143;
+	long int n = 612852475143;
 
-	int temp = n;
+	long int temp = n;
 
-	int p;
+	long int p;
 
 	for (n = 2; n <= sqrt(temp); n++)
 	{
