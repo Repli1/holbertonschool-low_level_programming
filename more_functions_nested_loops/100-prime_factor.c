@@ -7,11 +7,11 @@ int main(void)
 
 	long int temp = n;
 
-	long int p;
+	long int p = 1;
 
 	for (n = 2; n <= sqrt(temp); n++)
 	{
-		if ((temp % n) == 0)
+		if (((temp % n) == 0) && (temp / n > p))
 			p = n;
 	}
 	printf("%ld", p);
