@@ -14,6 +14,6 @@ int main(void)
 		if ((temp % n) == 0)
 			p = n;
 	}
-	printf("%d", p);
+	printf("%ld", p);
 	return (0);
 }
