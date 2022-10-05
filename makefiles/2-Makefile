@@ -1,8 +1,8 @@
 CC = gcc
 
-SRC = *.o
+SRC = main.c school.c
 
-OBJ = main.c school.c
+OBJ = *.o
 
 NAME = school
 
