@@ -12,7 +12,7 @@ all: ${OBJ}
 	${CC} ${OBJ} -o ${NAME}
 
 clean: ${OBJ}
-	${RM} *~
+	${RM} *~ ${NAME}
 
 oclean: ${OBJ}
 	${RM} ${OBJ}
