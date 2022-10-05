@@ -3,8 +3,6 @@
 
 int print_largest_prime(int n)
 {
-	int n;
-
 	int temp = n;
 
 	int p;
