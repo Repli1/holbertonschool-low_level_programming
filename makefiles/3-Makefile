@@ -15,7 +15,7 @@ clean: ${OBJ}
 	${RM} *~
 
 oclean: ${OBJ}
-	${RM} *.o
+	${RM} ${OBJ}
 
 fclean: clean oclean
 
