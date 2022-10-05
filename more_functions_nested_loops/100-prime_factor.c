@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-int print_largest_prime(int n)
+int main(void)
 {
+	int n = 612852475143;
+
 	int temp = n;
 
 	int p;
