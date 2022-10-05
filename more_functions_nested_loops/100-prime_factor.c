@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(int n)
+int print_largest_prime(int n)
 {
 	int n;
 
