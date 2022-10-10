@@ -16,5 +16,5 @@ void rev_string(char *s)
 	for(n = 0; s[n] == '\0'; n++)
 		rev[n] = s[(n - 1)];
 
-	*s = rev[a];
+	*s = rev[1500];
 }
