@@ -11,7 +11,7 @@ void puts2(char *str)
 {
 	int n;
 
-	for (n = 0; str[(2 * n) + 1] != '\0' || str[2 * n] != '\0'; n++)
+	for (n = 0; str[(2 * n) + 1] != '\0' && str[2 * n] != '\0'; n++)
 		_putchar(str[2 * n]);
 	_putchar('\n');
 }
