@@ -11,7 +11,7 @@ void rev_string(char *s)
 {
 	int n;
 
-	double rev[n];
+	double rev[1500];
 
 	for(n = 0; s[n] == '\0'; n++)
 		rev[n] = s[(n - 1)];
