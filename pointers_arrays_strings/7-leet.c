@@ -20,7 +20,7 @@ char *leet(char *s)
 		for (j = 0; j != 9; j++)
 		{
 			if (a[j] == s[i])
-				s[i] = arr[(j - 1) / 2];
+				s[i] = arr[j / 2];
 		}
 	}
 	return (s);
