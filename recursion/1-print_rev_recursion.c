@@ -11,10 +11,10 @@ int _length(char *s)
 	if (s[0] != '\0')
 		return (1 + _length(s + 1));
 	else
-		return (1);
+		return (0);
 }
 
 void _print_rev_recursion(char *s)
 {
-	_putchar(_length(s) + '0');
+	_putchar(s[_length(s) - 1]);
 }
