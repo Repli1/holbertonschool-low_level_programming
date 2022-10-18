@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			n = argv[i][j] + '\0';
+			n = argv[i][j] + '0';
 
 			a = sizeof(argv[i]);
 
