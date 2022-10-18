@@ -42,5 +42,6 @@ int main(int argc, char *argv[])
 			result = result * b;
 		b = 0;
 	}
+	printf("%d\n", result);
 	return (0);
 }
