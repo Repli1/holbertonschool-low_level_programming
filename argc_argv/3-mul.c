@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int n, a, i, j;
+	int n, a, i, j, result;
 
 	int b = 0;
 
@@ -25,22 +25,22 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			int n = argv[i][j] + '\0';
+			n = argv[i][j] + '\0';
 
-			size_t a = sizeof(argv[i]);
+			a = sizeof(argv[i]);
 
-			int a = a - 2 - j;
+			a = a - 2 - j;
 
 			for (; a >= 0; a--)
-				int n = n * 10;
+				n = n * 10;
 
-			int b = b + n;
+			b = b + n;
 		}
 		if (i == 1)
-			int result = b;
+			result = b;
 		else
-			int result = result * b;
-		int b = 0;
+			result = result * b;
+		b = 0;
 	}
 	return (0);
 }
