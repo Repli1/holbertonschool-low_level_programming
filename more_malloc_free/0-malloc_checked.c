@@ -13,6 +13,6 @@ void *malloc_checked(unsigned int b)
 	int *mem = malloc(b);
 
 	if (mem == NULL)
-		return (98);
+		b = 98;
 	return (mem);
 }
