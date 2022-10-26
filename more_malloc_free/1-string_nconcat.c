@@ -34,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2[len2] != '\0')
 		len2++;
 
-	str = malloc(len1 + n);
+	str = malloc(len1 + n + 1);
 
 	if (str == NULL)
 		return (NULL);
