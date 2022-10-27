@@ -18,6 +18,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	int j = 0;
 
+	char *namedup = name;
+
+	char *ownerdup = owner;
+
 	while (name[i] != '\0')
 		i++;
 	while (owner[j] != '\0')
@@ -25,9 +29,15 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog = malloc(i + j + 2 + sizeof(float));
 
-	dog->name = name;
+	if (dog == NULL)
+	{
+		free(dog);
+		return (NULL);
+	}
+
+	dog->name = namedup;
 	dog->age = age;
-	dog->owner = owner;
+	dog->owner = ownerdup;
 
 	return (dog);
 }
