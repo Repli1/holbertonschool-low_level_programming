@@ -29,7 +29,7 @@ void print_all(const char * const format, ...)
 					printf("%c", c);
 					j++;
 					break;
-				case 'n':
+				case 'i':
 					n = va_arg(args, int);
 					printf("%d", n);
 					j++;
