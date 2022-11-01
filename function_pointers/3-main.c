@@ -11,23 +11,26 @@
 
 int main(int argc, char *argv[])
 {
-	int a = atoi(argv[1]);
-	int b = atoi(argv[3]);
-	char *c = argv[2];
+	int a;
+	int b;
+	char *c;
 
 	if (argc != 4)
 	{
-		printf("Error1\n");
+		printf("Error\n");
 		return (98);
 	}
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+	c = argv[2];
 	if (get_op_func(c) == NULL)
 	{
-		printf("Error2\n");
+		printf("Error\n");
 		return (99);
 	}
 	if ((*c == '%' || *c == '/') && b == 0)
 	{
-		printf("Error3\n");
+		printf("Error\n");
 		return (100);
 	}
 	printf("%d\n", get_op_func(c)(a, b));
