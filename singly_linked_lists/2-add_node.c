@@ -7,10 +7,8 @@ list_t *add_node(list_t **head, const char *str)
 	char *s = strdup(str);
 	list_t *p = malloc(sizeof(list_t));
 
-	if (p == NULL)
+	if (p == NULL || s == NULL)
 		free(p);
-	if (s == NULL)
-		free(s);
 	p->str = s;
 	p->len = strlen(s);
 	p->next = *head;
