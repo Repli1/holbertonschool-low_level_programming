@@ -5,6 +5,7 @@
  * add_node - A function that adds a node as head of a singly linked list.
  * @head: A pointer to a pointer to the head node.
  * @str: Node contents.
+ * Return: A pointer to the new head.
  */
 
 list_t *add_node(list_t **head, const char *str)
