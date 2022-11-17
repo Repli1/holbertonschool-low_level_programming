@@ -12,6 +12,8 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int i, j, len = 0, m = 0, n;
 	char *c;
 
+	if (b == NULL)
+		return (0);
 	while (b[len] != '\0')
 		len++;
 	c = malloc(sizeof(char) * len);
