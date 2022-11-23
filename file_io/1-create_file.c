@@ -7,12 +7,10 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, count = 1, w;
-	const char *buf;
+	int fd, count = 0, w;
 
 	while (text_content[count] != '\0')
 		count++;
-	buf = malloc(sizeof(char) * count);
 	if (filename == NULL)
 		return (-1);
 	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 0600);
@@ -20,7 +18,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content == NULL)
 		text_content = "";
-	w = write(fd, buf, count);
+	w = write(fd, text_content, count);
 	if (w == -1)
 		return (-1);
 	return (1);
